@@ -24,7 +24,7 @@ import {
 } from "./pages";
 import { useStateContext } from "./contexts/ContextProvider";
 const App = () => {
-  const { activeMenu ,setActiveMenu} = useStateContext();
+  const { activeMenu, setActiveMenu } = useStateContext();
   return (
     <div>
       <BrowserRouter>
@@ -34,7 +34,7 @@ const App = () => {
               <button
                 type="button"
                 onClick={() => {}}
-                style={{  borderRadius: "50%" }}
+                style={{ borderRadius: "50%" }}
                 className="text-3xl bg-blue-600 text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
               >
                 <FiSettings />
@@ -61,7 +61,6 @@ const App = () => {
               <Navbar />
             </div>
             <div>
-             
               <Routes>
                 {/* dashboard  */}
                 <Route path="/" element={<Ecommerce />} />
@@ -89,7 +88,7 @@ const App = () => {
                 <Route path="/stacked" element={<Stacked />} />
               </Routes>
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       </BrowserRouter>
