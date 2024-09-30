@@ -40,7 +40,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern":
-          "url('https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d')",
+          "url('https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg')",
       },
     },
   },
