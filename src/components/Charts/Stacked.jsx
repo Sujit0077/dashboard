@@ -14,7 +14,9 @@ import {
   stackedPrimaryXAxis,
   stackedPrimaryYAxis,
 } from "../../data/dummy";
+import { useStateContext } from "../../contexts/ContextProvider";
 const Stacked = ({ width, height }) => {
+ const {currentColor}= useStateContext()
   return (
     <ChartComponent
       id="charts"
